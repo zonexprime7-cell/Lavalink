@@ -6,7 +6,7 @@ lavalink:
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
 
   server:
-    password: "youshallnotpass"
+    password: ${LAVALINK_PASSWORD:youshallnotpass}
 
     sources:
       youtube: false
@@ -20,12 +20,13 @@ lavalink:
 plugins:
   youtube:
     enabled: true
+
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
 
     clients:
-      - ANDROID
       - TVHTML5EMBEDDED
+      - ANDROID
       - IOS
       - MUSIC
