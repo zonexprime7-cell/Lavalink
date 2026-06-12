@@ -2,14 +2,28 @@ server:
   port: ${PORT:2333}
 
 lavalink:
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.5"
+      snapshot: false
+
   server:
     password: "youshallnotpass"
 
     sources:
-      youtube: true
+      youtube: false
       soundcloud: true
       bandcamp: true
       twitch: true
       vimeo: true
       http: true
       local: false
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
+    clients:
+      - MUSIC
+      - WEB
