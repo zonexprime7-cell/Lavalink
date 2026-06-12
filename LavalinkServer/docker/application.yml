@@ -27,4 +27,4 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - WEB
-      - WEBEMBEDDED
+      - WEB_REMIX
