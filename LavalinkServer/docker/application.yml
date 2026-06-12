@@ -9,15 +9,14 @@ lavalink:
   server:
     password: "youshallnotpass"
 
-    server:
-  sources:
-    youtube: true
-    soundcloud: true
-    bandcamp: true
-    twitch: true
-    vimeo: true
-    http: true
-    local: false
+    sources:
+      youtube: false
+      soundcloud: true
+      bandcamp: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
 
 plugins:
   youtube:
