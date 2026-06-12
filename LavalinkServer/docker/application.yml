@@ -23,6 +23,9 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
+
     clients:
-      - MUSIC
+      - ANDROID
+      - TVHTML5EMBEDDED
+      - IOS
       - MUSIC
