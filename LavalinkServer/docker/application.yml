@@ -25,5 +25,4 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
-      - WEB
-      - WEB_REMIX
+      - MUSIC
