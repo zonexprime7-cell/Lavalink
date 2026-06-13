@@ -26,6 +26,6 @@ plugins:
 
     clients:
       - TVHTML5EMBEDDED
-      - WEB
       - MWEB
+      - WEB
       - ANDROID_VR
